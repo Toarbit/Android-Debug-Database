@@ -19,12 +19,13 @@
 
 package com.amitshekhar.server;
 
-import android.arch.persistence.db.SupportSQLiteDatabase;
 import android.content.Context;
 import android.content.res.AssetManager;
 import android.net.Uri;
 import android.text.TextUtils;
 import android.util.Pair;
+
+import androidx.sqlite.db.SupportSQLiteDatabase;
 
 import com.amitshekhar.model.Response;
 import com.amitshekhar.model.RowDataRequest;
@@ -225,7 +226,7 @@ public class RequestHandler {
         String tableName = null;
 
         if (route.contains("?tableName=")) {
-            tableName = route.substring(route.indexOf("=") + 1, route.length());
+            tableName = route.substring(route.indexOf("=") + 1);
         }
 
         TableDataResponse response;
@@ -247,7 +248,7 @@ public class RequestHandler {
         String first;
         try {
             if (route.contains("?query=")) {
-                query = route.substring(route.indexOf("=") + 1, route.length());
+                query = route.substring(route.indexOf("=") + 1);
             }
             try {
                 query = URLDecoder.decode(query, "UTF-8");
@@ -293,7 +294,7 @@ public class RequestHandler {
     private String getTableListResponse(String route) {
         String database = null;
         if (route.contains("?database=")) {
-            database = route.substring(route.indexOf("=") + 1, route.length());
+            database = route.substring(route.indexOf("=") + 1);
         }
 
         Response response;

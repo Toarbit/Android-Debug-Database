@@ -19,10 +19,11 @@
 
 package com.amitshekhar;
 
-import android.arch.persistence.db.SupportSQLiteDatabase;
 import android.content.Context;
 import android.util.Log;
 import android.util.Pair;
+
+import androidx.sqlite.db.SupportSQLiteDatabase;
 
 import com.amitshekhar.server.ClientServer;
 import com.amitshekhar.sqlite.DBFactory;
@@ -50,7 +51,7 @@ public class DebugDB {
         int portNumber;
 
         try {
-            portNumber = Integer.valueOf(context.getString(R.string.PORT_NUMBER));
+            portNumber = Integer.parseInt(context.getString(R.string.PORT_NUMBER));
         } catch (NumberFormatException ex) {
             Log.e(TAG, "PORT_NUMBER should be integer", ex);
             portNumber = DEFAULT_PORT;
