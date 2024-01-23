@@ -2,14 +2,6 @@
 
 # Android Debug Database
 
-[![Mindorks](https://img.shields.io/badge/mindorks-opensource-blue.svg)](https://mindorks.com/open-source-projects)
-[![Mindorks Community](https://img.shields.io/badge/join-community-blue.svg)](https://mindorks.com/join-community)
-[![Mindorks Android Store](https://img.shields.io/badge/Mindorks%20Android%20Store-Android%20Debug%20Database-blue.svg?style=flat)](https://mindorks.com/android/store)
-[![API](https://img.shields.io/badge/API-9%2B-brightgreen.svg?style=flat)](https://android-arsenal.com/api?level=9)
-[![Download](https://api.bintray.com/packages/amitshekhariitbhu/maven/debug-db/images/download.svg) ](https://bintray.com/amitshekhariitbhu/maven/debug-db/_latestVersion)
-[![Open Source Love](https://badges.frapsoft.com/os/v1/open-source.svg?v=102)](https://opensource.org/licenses/Apache-2.0)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/amitshekhariitbhu/Android-Debug-Database/blob/master/LICENSE)
-
 ## Android Debug Database is a powerful library for debugging databases and shared preferences in Android applications
 
 ### Android Debug Database allows you to view databases and shared preferences directly in your browser in a very simple way
@@ -29,13 +21,20 @@
 * Download database.
 * Debug Room inMemory database.
 
+## About me
+
+Hi, I am [**Amit Shekhar**](https://amitshekhar.me), I have mentored many developers, and their efforts landed them high-paying tech jobs, helped many tech companies in solving their unique problems, and created many open-source libraries being used by top companies. I am passionate about sharing knowledge through open-source, blogs, and videos.
+
+You can connect with me on:
+
+- [Twitter](https://twitter.com/amitiitbhu)
+- [YouTube](https://www.youtube.com/@amitshekhar)
+- [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu)
+- [GitHub](https://github.com/amitshekhariitbhu)
+
+## [My Personal Blog - amitshekhar.me](https://amitshekhar.me/blog) - High-quality content to learn Android concepts.
+
 ### All these features work without rooting your device -> No need of rooted device
-
-### Check out our other Open Source Projects
-
-* [Fast Android Networking Library](https://github.com/amitshekhariitbhu/Fast-Android-Networking)
-* [Learn to build a ride-sharing Android app like Uber, Lyft](https://github.com/MindorksOpenSource/ridesharing-uber-lyft-app)
-* [Kotlin-Coroutines-Android-Examples](https://github.com/MindorksOpenSource/Kotlin-Coroutines-Android-Examples)
 
 ### Using Android Debug Database Library in your application
 
@@ -171,20 +170,19 @@ public static void setInMemoryRoomDatabases(SupportSQLiteDatabase... database) {
 * Simplify emulator issue [Issue Link](https://github.com/amitshekhariitbhu/Android-Debug-Database/issues/6)
 * And of course many more features and bug fixes.
 
-### [Check out Mindorks awesome open source projects here](https://mindorks.com/open-source-projects)
+You can connect with me on:
 
-### Contact - Let's become friends
+- [Twitter](https://twitter.com/amitiitbhu)
+- [LinkedIn](https://www.linkedin.com/in/amit-shekhar-iitbhu)
+- [GitHub](https://github.com/amitshekhariitbhu)
+- [Facebook](https://www.facebook.com/amit.shekhar.iitbhu)
 
-* [Twitter](https://twitter.com/amitiitbhu)
-* [GitHub](https://github.com/amitshekhariitbhu)
-* [Medium](https://medium.com/@amitshekhar)
-* [Facebook](https://www.facebook.com/amit.shekhar.iitbhu)
+[**Read all of my blogs here.**](https://amitshekhar.me/blog)
 
 ### License
 
 ```
-   Copyright (C) 2019 Amit Shekhar
-   Copyright (C) 2011 Android Open Source Project
+   Copyright (C) 2022 Amit Shekhar
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
